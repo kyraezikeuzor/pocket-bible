@@ -2,6 +2,7 @@
 import React, {useEffect, useState} from 'react'
 const Axios = require('axios');
 import styles from './Bible.module.css'
+require('dotenv').config('.env');
 
 export default function Bible() {
 
