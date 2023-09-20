@@ -22,7 +22,7 @@ export default function Bible() {
           VerseTo: verseTo
         },
         headers: {
-          'X-RapidAPI-Key': process.env.NEXT_PUBLIC_BIBLEAPIKEY,
+          'X-RapidAPI-Key': process.env.BIBLE_API_KEY,
           'X-RapidAPI-Host': 'ajith-holy-bible.p.rapidapi.com'
         }
       };
