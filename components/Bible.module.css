@@ -1,0 +1,14 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4vh;
+  }
+  
+  .main p {
+    width: inherit;
+    text-align: center;
+    inline-size: 250px;
+    overflow-wrap: break-word;
+  }
